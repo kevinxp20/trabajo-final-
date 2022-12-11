@@ -1,0 +1,68 @@
+.container-fluid2 {
+    background-image: url(../src/IMG/fondo-AZUL.jpg);
+    background-repeat: no-repeat;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;     
+    background-position: center;
+}
+
+.iconouniversidad  {
+    background-image: url(../src/IMG/iud.png);
+    background-repeat: no-repeat;
+    position: fixed;
+    min-width: 20%;
+    min-height: 20%;     
+}
+
+.neon {
+    font-size: 6em;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px #2f03f4,
+    0 0 25px #2f03f4,
+    0 0 50px #2f03f4,
+    0 0 100px #2f03f4;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 60px;
+    font-family: forte;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.mb-right{
+    margin-right: 8px;
+}
+
+.card {
+    box-shadow: 0 5px 10px 0 rgb(105, 105, 105);
+    transition: 0.3s;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgb(248, 7, 216);
+}
+
+.bg-page {
+    background-color: rgb(14, 200, 247) !important;
+}
+
+.form-label {
+    color: rgb(0, 0, 0);
+     font-weight: bold;
+     font-size: 20px;
+}
+
+
